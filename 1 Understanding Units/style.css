@@ -1,0 +1,40 @@
+.parent{
+    background-color: beige;
+}
+
+
+/* px  */
+/* it cant change according to screen it is fixed  */
+/* 
+
+.parent {
+    height: 200px;
+    width: 200px;
+    
+} */
+
+
+/* %  */
+/* It takes size with % of screen  */
+/* .parent{
+    height: 30%;
+    width: 40%;
+} */
+
+
+/* Vw / Vh */
+/* .parent h1{
+    font-size: 7vw;
+    font-size: 5vh;
+}
+ */
+
+
+ /* vmax  */
+ /* .parent h1{
+    font-size: 10vmax;
+ } */
+
+ .parent h1{
+    font-size: 10vmin;
+ }
