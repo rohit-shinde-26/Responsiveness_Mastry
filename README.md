@@ -30,3 +30,43 @@ Ex : Font-size : 2em; // It takes 2x size of its parent
 Takes size as screen size <br/>
 1rem = 16px;
 
+
+
+## Absolute vs Flexbox
+### Why not maximum use absolute ?
+Because it mostly thrown an error while time of responsive
+
+
+### Why use flexbox ?
+It is easier simple tool for making responsiveness
+
+### Some flexbox ex
+```ruby
+display: flex; 
+```
+     makes child is in row form  <br/>
+
+```ruby
+flex-direction: column; 
+```
+     makes child is in column form  <br/>
+
+```ruby
+align-items: center;  
+```
+     centered element on Y axis  <br/>
+
+```ruby
+justify-content: center; 
+```
+     centered elements on x axis <br/>
+
+```ruby
+justify-content: space-evenly;
+```
+     same space on child  <br/>
+
+```ruby
+flex-wrap: wrap;
+```
+     when childs are very close then it was send to down  <br/>

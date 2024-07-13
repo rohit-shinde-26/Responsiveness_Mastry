@@ -1,0 +1,53 @@
+h1{
+    font-size: 30px;
+}
+
+/* // absolute css */
+/* .parent{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.child{
+    background-color: blueviolet;
+}
+.child1{
+    padding-left: 20%;
+} */
+
+
+
+
+.parent{
+    display: flex;
+    /* makes child is in row form  */
+
+    /* flex-direction: column; */
+    /* makes child is in column form  */
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    align-items: center;   
+    /* centered element on Y axis  */
+
+    /* justify-content: center; */
+    /* centered elements on x axis */
+
+    justify-content: space-evenly;
+    /* same space on child  */
+
+    flex-wrap: wrap;
+    /* when childs are very close then it was send to down  */
+}
+
+.child{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border: 5px dashed red;
+    text-align: center;
+    color: #ffffff ;
+    margin: 10px;
+}
